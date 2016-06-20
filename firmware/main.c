@@ -295,7 +295,7 @@ int main(void)
 
   //GLCDDrawChar(20, 20, 48, &lcd_buffer);
 
-  DLCDDrawString(1, 1, "555", &lcd_buffer);
+  DLCDDrawString(1, 1, "777", &lcd_buffer);
 
   GLCDFillScreenGraphic(lcd_buffer);
 
