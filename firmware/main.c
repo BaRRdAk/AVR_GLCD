@@ -6,7 +6,6 @@
 
 uint8_t lcd_buffer[1024];
 
-
 void spiSendChar(uint8_t send_char)
 {
   SPDR = send_char;
@@ -296,7 +295,7 @@ int main(void)
 
   //GLCDDrawChar(20, 20, 48, &lcd_buffer);
 
-  DLCDDrawString(1, 1, "1234567890", &lcd_buffer);
+  DLCDDrawString(1, 1, "555", &lcd_buffer);
 
   GLCDFillScreenGraphic(lcd_buffer);
 
